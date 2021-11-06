@@ -1,0 +1,121 @@
+name: toodo
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.1.0+1
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+  #sdk: "2.12"
+
+
+  #audioplayers: 
+  
+  
+
+dependencies:
+  flutter:
+    sdk: flutter
+  awesome_notifications: ^0.0.6+7
+  flutter_radio_group: ^2.0.0
+  adaptive_theme: ^2.2.0
+  audioplayers: 
+  davinci: 
+  expansion_card: ^0.1.0
+  flutter_overboard:
+  cupertino_icons: ^1.0.2
+  gradient_widgets: ^0.6.0
+  carbon_icons: ^0.0.1+2
+  hive: ^2.0.4
+  syncfusion_flutter_charts: ^19.1.59
+  path_provider:
+  share: ^2.0.1
+  flutter_snake_navigationbar: ^0.5.0
+  hive_flutter:
+  intl: ^0.17.0
+  emoji_picker:
+  dart_random_choice: ^0.0.2
+  http: ^0.13.2
+  animate_do: ^2.0.0
+  connection_verify:
+  carousel_slider: ^3.0.0
+  url_launcher: ^6.0.3
+  shimmer_animation: ^2.0.0
+  speech_bubble: ^0.0.9
+  date_format: ^2.0.2
+  multi_value_listenable_builder: ^0.0.1
+  flutter_mailer: ^2.0.0
+  jiffy: ^4.1.0
+  yudiz_modal_sheet: ^0.0.3
+  better_cupertino_slider: ^1.0.0
+  step_progress_indicator: ^1.0.0
+  confetti: ^0.5.5
+  #app_settings:
+  flutter_rounded_date_picker: ^2.0.2
+  clipboard: ^0.1.3
+  fluttertoast: ^8.0.7
+  app_settings: ^4.1.1
+  flip_card: ^0.5.0
+
+  
+  
+
+dev_dependencies:
+  hive_generator: ^1.1.0
+
+  build_runner: ^2.0.1
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - jsons/quotes.json
+    - assets/
+    - assets/sounds/
+    - icon/
+      # - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: WorkSans
+      fonts:
+        - asset: fonts/WorkSans/static/WorkSans-Regular.ttf
+        - asset: fonts/WorkSans/WorkSans-Italic-VariableFont_wght.ttf
+        - asset: fonts/WorkSans/static/WorkSans-SemiBold.ttf
+          style: italic
+          weight: 600
+  
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
